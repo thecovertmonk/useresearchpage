@@ -1,0 +1,30 @@
+/* Add any additional styles needed for the browser frame */
+.browser-frame {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.browser-frame img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.survey-content {
+  position: absolute;
+  top: 35px; /* Adjust based on the browser frame header height */
+  left: 5%;
+  width: 90%;
+  height: calc(100% - 45px); /* Adjust based on the browser frame header height */
+  overflow: hidden;
+}
+
+.survey-content img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: top;
+}
+
